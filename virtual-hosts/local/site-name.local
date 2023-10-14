@@ -1,0 +1,7 @@
+server {
+    server_name site-name.local;
+
+    location / {
+        proxy_pass http://service-name;
+    }
+}
